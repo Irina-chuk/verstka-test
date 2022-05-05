@@ -1,0 +1,42 @@
+.header {
+    margin-top: 61px;
+    &__wrapper {
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__logo {
+        font-family: Playfair Display;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color:#10375C;
+    }
+    &__menu {
+        margin: 0;
+        padding: 0;
+        padding-top: 12px;
+        width: 562px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;    
+    }
+    .hamburger {
+        display: none;
+    }
+    &__link {
+        text-decoration: none;
+        color: #222831;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        &_active {
+            color: $main-color;
+        }
+    }
+}

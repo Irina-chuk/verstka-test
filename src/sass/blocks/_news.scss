@@ -1,0 +1,105 @@
+.news {
+    width: 100%;
+    background-color: #F8F8F8;
+    margin-top: 36px;
+    padding: 60px 165px 96px 165px;
+    &__header {
+        margin: 0 auto;
+        width: 1110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        button {
+            position: relative;
+            height: 32px;
+            width: 106px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            background: #F8F8F8;
+        }
+    }
+    &__items {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 1110px;
+        height: 690px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        height: 320px;
+        width: 350px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(223, 223, 223, 0.5);
+        &__descr {
+            padding: 14px 0 16px 16px;
+        }
+        &__header {
+            font-family: Lora;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #222831;
+        }
+        &__text {
+            margin-top: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            color: #9A9A9A;
+
+        }
+    }
+   
+
+    &__item__block {
+        width: 730px;
+        height: 320px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        &-descr {
+            width: 380px;
+            padding: 32px;
+        }
+        &-header {
+            font-family: Lora;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 41px;
+            color: #222831;
+        }
+        &-text {
+            margin-top: 24px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color: #9A9A9A;
+        }
+        &__user {
+            margin-top: 16px;
+            width: 186px;
+            height: 56px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-name {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                color: #10375C;
+            }
+            &-position {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                color: #9A9A9A;
+
+            }
+        }
+        
+    }
+}

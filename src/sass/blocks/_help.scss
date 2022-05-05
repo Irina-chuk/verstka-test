@@ -1,0 +1,74 @@
+.help {
+    margin-top: 112px;
+    .title__big {
+        width: 578px;
+        margin: 0 auto;
+    }
+    &__center {
+        margin-top: 54px;
+        height: 203px;
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            position: relative;
+            width: 350px;
+            height: 171px;
+            padding: 42px 40px 63px 40px;
+            font-family: Lora;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 33px;
+            text-align: center;
+            color: #000000;
+            box-shadow: 0px 4px 16px rgba(223, 223, 223, 0.5);
+            &_active {
+                background: $main-color;
+                color: #FFFFFF;
+            }
+        }
+    }
+    &__questions {
+        margin: 0 auto;
+        margin-top: 34px;
+        position: relative;
+        button {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+            height: 32px;
+            width: 150px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        &-icon {
+            margin-left: 20px;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 12px;
+                height: 2px;
+                right: 1px;
+                top: 12px;
+                border-radius: 30px;
+                transform: rotate(45deg); 
+                background-color: $main-color;
+            } 
+            &:after {
+                content: "";
+                position: absolute;
+                width: 12px;
+                height: 2px;
+                right: 1px;
+                top: 20px;
+                border-radius: 30px;
+                transform: rotate(-45deg); 
+                background-color: $main-color;
+            }
+        }
+        
+        
+    }
+
+
+}

@@ -1,0 +1,39 @@
+.title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    &__text{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #222831;
+        &-white {
+            color: #FFFFFF;
+        }
+    }
+    &__divider {
+        margin-top: 3px;
+        margin-left: 15px;
+        width: 73px;
+        height: 2px;
+        background-color:#222831;
+        &-white {
+            background-color: #FFFFFF;
+        }
+    }
+    &__big {
+        font-family: Lora;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        color: #10375C;
+        &-white {
+            color: #FFFFFF;
+        }
+        &-facilities {
+            margin-top: 8px;
+            width: 570px;
+        }
+    }
+    
+}
